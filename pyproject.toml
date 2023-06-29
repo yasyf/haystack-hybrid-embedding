@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "haystack-hybrid-embedding"
+version = "0.1.0"
+description = "Sparse-Dense Embeddings for Pinecone in Haystack"
+authors = ["Yasyf Mohamedali <yasyfm@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "haystack_hybrid_embedding" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+farm-haystack = "^1.17.2"
+torch = "^2.0.1"
+numpy = "^1.25.0"
+wrapt = "^1.15.0"
+pinecone-client = "^2.2.2"
+pinecone-text = "^0.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

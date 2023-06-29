@@ -1,0 +1,3 @@
+from .proxies import PineconeHybridDocumentStore as PineconeHybridDocumentStore
+from .retrievers import SparseDenseMultihopRetriever as SparseDenseMultihopRetriever
+from .retrievers import SparseDenseRetriever as SparseDenseRetriever
